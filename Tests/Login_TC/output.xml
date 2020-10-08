@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.5 on win32)" generated="20200921 12:12:31.809" rpa="false">
+<suite id="s1" name="usingRecord" source="C:\python\robot-scripts\amazon\Tests\Login_TC\usingRecord.robot">
+<test id="s1-t1" name="Login &amp; Sign Up Forms test">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.thetestingworld.com/testings/</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200921 12:12:31.996" level="INFO">Opening browser 'chrome' to base url 'https://www.thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200921 12:12:31.996" endtime="20200921 12:12:38.344"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="fld_username"]</arg>
+<arg>robertjhall</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.345" level="INFO">Typing text 'robertjhall' into text field '//input[@name="fld_username"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.344" endtime="20200921 12:12:38.420"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="fld_email"]</arg>
+<arg>robertjhall67@gmail.com</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.421" level="INFO">Typing text 'robertjhall67@gmail.com' into text field '//input[@name="fld_email"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.420" endtime="20200921 12:12:38.494"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="phone"]</arg>
+<arg>+32498419376</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.495" level="INFO">Typing text '+32498419376' into text field '//input[@name="phone"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.495" endtime="20200921 12:12:38.567"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="address"]</arg>
+<arg>Nijvelsebaan 80</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.567" level="INFO">Typing text 'Nijvelsebaan 80' into text field '//input[@name="address"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.567" endtime="20200921 12:12:38.639"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//select[@name="country"]</arg>
+<arg>21</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.640" level="INFO">Selecting options from selection list '//select[@name="country"]' by value 21.</msg>
+<status status="PASS" starttime="20200921 12:12:38.640" endtime="20200921 12:12:38.696"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="zip"]</arg>
+<arg>3090</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.697" level="INFO">Typing text '3090' into text field '//input[@name="zip"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.697" endtime="20200921 12:12:38.769"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="fld_password"]</arg>
+<arg>***</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.769" level="INFO">Typing text '***' into text field '//input[@name="fld_password"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.769" endtime="20200921 12:12:38.839"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="fld_cpassword"]</arg>
+<arg>***</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.840" level="INFO">Typing text '***' into text field '//input[@name="fld_cpassword"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.840" endtime="20200921 12:12:38.907"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name="add_type"]</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.908" level="INFO">Clicking element '//input[@name="add_type"]'.</msg>
+<status status="PASS" starttime="20200921 12:12:38.908" endtime="20200921 12:12:38.949"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//select[@name="sex"]</arg>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200921 12:12:38.950" level="INFO">Selecting options from selection list '//select[@name="sex"]' by value 1.</msg>
+<status status="PASS" starttime="20200921 12:12:38.950" endtime="20200921 12:12:39.006"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//select[@name="state"]</arg>
+<arg>438</arg>
+</arguments>
+<msg timestamp="20200921 12:12:39.007" level="INFO">Selecting options from selection list '//select[@name="state"]' by value 438.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200921 12:12:39.409" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200921 12:12:39.036" endtime="20200921 12:12:39.409"></status>
+</kw>
+<msg timestamp="20200921 12:12:39.440" level="FAIL">NoSuchElementException: Message: Cannot locate option with value: 438
+</msg>
+<status status="FAIL" starttime="20200921 12:12:39.006" endtime="20200921 12:12:39.441"></status>
+</kw>
+<status status="FAIL" starttime="20200921 12:12:31.996" endtime="20200921 12:12:39.441" critical="yes">NoSuchElementException: Message: Cannot locate option with value: 438
+</status>
+</test>
+<doc>A test suite with a single test for Login &amp; Sign Up Forms
+Created by hats' Robotcorder</doc>
+<status status="FAIL" starttime="20200921 12:12:31.809" endtime="20200921 12:12:39.443"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="usingRecord">usingRecord</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
